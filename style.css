@@ -1,0 +1,66 @@
+
+
+body{background-color:lightgray;
+	margin:0;
+}
+nav{
+	padding:15px;
+	background-color:white;
+	border-bottom:1px solid darkblue; /* size style color*/
+}
+
+nav button{
+	display: block;/* buttons by default are displayed inline */
+	float:right;
+}
+nav ul{
+	margin:0;
+		padding:0;
+}
+nav li {
+color:gray;
+list-style: none; /*removed the button */
+font-weight:bold;
+font-size: 1.2em;
+display: inline;/* this code makes all list items horizontal */
+margin-right:30px;	
+margin-left:30px;
+}
+aside{
+	background-color:white;
+	width:200px;/* container */
+	border:1px solid lightgray;
+	border-radius: 15px;
+	overflow:hidden; /* top of the picture or container */
+	margin:20px;
+	float:left;
+}
+
+aside img {
+	width:100%;
+}
+body > main{
+	width: 80%;
+	margin-left:240px;
+	margin-top:20px;
+	background-color:white;
+	border:1px solid darkgray;
+	border-radius:10px;
+}
+article {
+	border-bottom:1px solid darkgray;
+}
+article header img{
+	width: 30px;
+}
+article h2, article h3, article time{
+	display:inline;
+}
+article h3, article time {
+	color:darkgray;
+
+}
+
+article main{
+	font-size:1.5em;
+}
